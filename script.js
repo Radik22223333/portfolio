@@ -41,3 +41,34 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// Мобильное меню (бургер)
+function toggleMobileMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    const burgerIcon = document.querySelector('.mobile-menu-btn i');
+    
+    navLinks.classList.toggle('active');
+    
+    // Меняем иконку (бургер на крестик)
+    if (navLinks.classList.contains('active')) {
+        burgerIcon.classList.remove('fa-bars');
+        burgerIcon.classList.add('fa-xmark');
+    } else {
+        burgerIcon.classList.remove('fa-xmark');
+        burgerIcon.classList.add('fa-bars');
+    }
+}
+
+// Закрываем мобильное меню при клике на любую ссылку
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        const navLinks = document.querySelector('.nav-links');
+        const burgerIcon = document.querySelector('.mobile-menu-btn i');
+        
+        if (navLinks.classList.contains('active')) {
+            navLinks.classList.remove('active');
+            burgerIcon.classList.remove('fa-xmark');
+            burgerIcon.classList.add('fa-bars');
+        }
+    });
+});
