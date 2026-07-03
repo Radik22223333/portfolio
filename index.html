@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-Специалист | Портфолио</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+    <!-- Фоновые элементы (свечения) -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <header>
+        <div class="container nav-wrapper">
+            <div class="logo">Rodion.Dev</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#pricing">Тарифы</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="https://t.me/BigBoss4243" target="_blank" class="btn-outline">Связаться</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container reveal">
+            <div class="hero-content">
+                <span class="badge">Доступен для проектов</span>
+                <h1 class="hero-title">
+                    Разработка <span class="gradient-text">Telegram-ботов</span><br>
+                    и автоматизация бизнеса
+                </h1>
+                <p class="hero-subtitle">
+                    Помогаю бизнесу автоматизировать рутину, собирать данные и запускать сложные CRM-решения в Telegram. Быстро, стабильно и под ключ.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Обсудить проект</a>
+                    <a href="#services" class="btn-secondary">Посмотреть услуги</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Обо мне -->
+        <section id="about" class="about container reveal">
+            <div class="about-wrapper glass">
+                <div class="about-image">
+                    <!-- Заглушка для фото. Поместите ваше фото в папку с сайтом и замените src на имя файла -->
+                    <img src="https://via.placeholder.com/300x300/1e293b/6366f1?text=%D0%A4%D0%BE%D1%82%D0%BE" alt="Родион" class="profile-photo">
+                </div>
+                <div class="about-text">
+                    <h2>Здравствуйте, меня зовут <span class="gradient-text">Родион</span></h2>
+                    <p>Я IT-специалист и разработчик с глубоким фокусом на автоматизацию бизнес-процессов. Моя главная задача — забирать у людей рутину и отдавать её скриптам.</p>
+                    <p>Имею большой опыт в создании парсеров под сложные площадки (с обходом Cloudflare и ротацией прокси), разработке многофункциональных Telegram-ботов на Aiogram 3, а также в создании кастомных CRM-систем и интеграции ИИ (ChatGPT/Claude).</p>
+                    <p>Я не просто пишу код, а вникаю в логику вашей задачи, чтобы предложить самое надежное и быстрое решение "под ключ".</p>
+                    <div class="github-cta" style="margin-top: 30px; padding: 20px; background: rgba(0,0,0,0.2); border-radius: 12px; border: 1px dashed rgba(255,255,255,0.1);">
+                        <p style="color: #f8fafc; font-weight: 600; margin-bottom: 15px; font-size: 1.1rem;">💻 Хотите оценить качество кода?</p>
+                        <p style="font-size: 0.95rem; margin-bottom: 20px;">Я пишу чистый, документированный код, который легко поддерживать. Все мои открытые проекты, парсеры и боты лежат в публичном доступе.</p>
+                        <a href="https://github.com/Radik22223333" target="_blank" class="btn-outline" style="border-color: #f8fafc; color: #f8fafc !important; font-size: 0.95rem;"><i class="fa-brands fa-github"></i> Смотреть проекты на GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Стек -->
+        <section id="skills" class="skills container reveal">
+            <h2 class="section-title">Технологический <span class="gradient-text">стек</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass">
+                    <i class="fa-brands fa-python skill-icon"></i>
+                    <h3>Python</h3>
+                    <p>Основной язык: скрипты, бэкенд, парсинг.</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fa-brands fa-telegram skill-icon"></i>
+                    <h3>Aiogram 3</h3>
+                    <p>Сложные боты, платежи, интеграции.</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fa-solid fa-database skill-icon"></i>
+                    <h3>PostgreSQL</h3>
+                    <p>Надежное хранение данных и архитектура БД.</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fa-solid fa-robot skill-icon"></i>
+                    <h3>Автоматизация</h3>
+                    <p>Playwright, Requests, обход Cloudflare.</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fa-solid fa-code-branch skill-icon"></i>
+                    <h3>API Интеграции</h3>
+                    <p>Google Sheets, CRM, платежные системы.</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fa-solid fa-brain skill-icon"></i>
+                    <h3>AI & LLM</h3>
+                    <p>Интеграция ChatGPT / Claude в продукты.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section id="services" class="services container reveal">
+            <h2 class="section-title">Мои <span class="gradient-text">услуги</span></h2>
+            <div class="services-list">
+                <div class="service-item glass">
+                    <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <div class="service-text">
+                        <h3>Telegram-боты любой сложности</h3>
+                        <p>От простых визиток до полноценных интернет-магазинов, CRM-систем и мини-приложений (Web Apps) внутри Telegram.</p>
+                    </div>
+                </div>
+                <div class="service-item glass">
+                    <div class="service-icon"><i class="fa-solid fa-spider"></i></div>
+                    <div class="service-text">
+                        <h3>Web-Scraping и Парсеры</h3>
+                        <p>Сбор данных с сайтов и маркетплейсов. Обход защит от ботов (Cloudflare, Qrator), выгрузка в Excel или базу данных.</p>
+                    </div>
+                </div>
+                <div class="service-item glass">
+                    <div class="service-icon"><i class="fa-solid fa-gears"></i></div>
+                    <div class="service-text">
+                        <h3>Снайперы и авторегеры</h3>
+                        <p>Высокоскоростные скрипты для перехвата заказов, бронирования или автоматизации рутинных кликов в браузере.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Тарифы (Цены) -->
+        <section id="pricing" class="pricing container reveal">
+            <h2 class="section-title">Ориентировочные <span class="gradient-text">цены</span></h2>
+            <div class="pricing-grid">
+                
+                <!-- Тариф 1 -->
+                <div class="pricing-card glass">
+                    <h3>Парсеры данных</h3>
+                    <div class="price">от 5 000 ₽</div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Сбор данных любой сложности</li>
+                        <li><i class="fa-solid fa-check"></i> Обход Cloudflare и капч</li>
+                        <li><i class="fa-solid fa-check"></i> Выгрузка в Excel / CSV / БД</li>
+                        <li><i class="fa-solid fa-check"></i> Поддержка скрипта</li>
+                    </ul>
+                    <a href="https://t.me/BigBoss4243" target="_blank" class="btn-outline">Заказать парсер</a>
+                </div>
+
+                <!-- Тариф 2 -->
+                <div class="pricing-card glass popular">
+                    <div class="popular-badge">Хит продаж</div>
+                    <h3>Сложные TG-боты</h3>
+                    <div class="price">от 15 000 ₽</div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Магазины и CRM-боты</li>
+                        <li><i class="fa-solid fa-check"></i> Интеграция с API и ИИ</li>
+                        <li><i class="fa-solid fa-check"></i> Настройка базы (PostgreSQL)</li>
+                        <li><i class="fa-solid fa-check"></i> Деплой на ваш сервер</li>
+                    </ul>
+                    <a href="https://t.me/BigBoss4243" target="_blank" class="btn-primary">Заказать бота</a>
+                </div>
+
+                <!-- Тариф 3 -->
+                <div class="pricing-card glass">
+                    <h3>Снайперы / Авторегеры</h3>
+                    <div class="price">от 10 000 ₽</div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Высокая скорость (многопоток)</li>
+                        <li><i class="fa-solid fa-check"></i> Эмуляция браузера (Playwright)</li>
+                        <li><i class="fa-solid fa-check"></i> Ротация мобильных прокси</li>
+                        <li><i class="fa-solid fa-check"></i> Обход лимитов (Rate Limits)</li>
+                    </ul>
+                    <a href="https://t.me/BigBoss4243" target="_blank" class="btn-outline">Заказать скрипт</a>
+                </div>
+
+                <!-- Тариф 4 -->
+                <div class="pricing-card glass">
+                    <h3>Доработка и Аудит</h3>
+                    <div class="price">от 3 000 ₽</div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Починка сломанных ботов</li>
+                        <li><i class="fa-solid fa-check"></i> Оптимизация чужого кода</li>
+                        <li><i class="fa-solid fa-check"></i> Аудит безопасности по 152-ФЗ</li>
+                        <li><i class="fa-solid fa-check"></i> Перенос на новый сервер</li>
+                    </ul>
+                    <a href="https://t.me/BigBoss4243" target="_blank" class="btn-outline">Заказать аудит</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="faq container reveal">
+            <h2 class="section-title">Частые <span class="gradient-text">вопросы</span></h2>
+            <div class="faq-list">
+                <details class="faq-item glass">
+                    <summary>Как происходит процесс работы и оплаты?</summary>
+                    <div class="faq-content">
+                        <p>Мы детально обсуждаем вашу задачу, после чего я оцениваю работу и называю фиксированную цену и сроки. Обычно я работаю по предоплате 50% либо через Безопасную сделку на платформе Kwork.</p>
+                    </div>
+                </details>
+                <details class="faq-item glass">
+                    <summary>Вы помогаете с установкой бота на сервер?</summary>
+                    <div class="faq-content">
+                        <p>Да! Я абсолютно бесплатно выполняю деплой проекта на ваш Linux-сервер (VPS), настраиваю базы данных, окружение и передаю вам готовое решение, работающее 24/7.</p>
+                    </div>
+                </details>
+                <details class="faq-item glass">
+                    <summary>Есть ли гарантия на код и поддержка?</summary>
+                    <div class="faq-content">
+                        <p>Безусловно. В течение 2 недель после сдачи я бесплатно исправляю любые всплывшие баги или адаптирую парсер, если верстка целевого сайта незначительно изменилась. Долгосрочное сопровождение мы можем обсудить индивидуально.</p>
+                    </div>
+                </details>
+                <details class="faq-item glass">
+                    <summary>Получу ли я исходный код проекта?</summary>
+                    <div class="faq-content">
+                        <p>Да, по завершении вы получаете все исходники с подробными комментариями. По желанию, я могу загрузить код в ваш приватный репозиторий на GitHub или GitLab.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- Call to Action / Контакты -->
+        <section id="contact" class="contact container reveal">
+            <div class="contact-box glass">
+                <h2>Готовы начать <span class="gradient-text">сотрудничество?</span></h2>
+                <p>Напишите мне в Telegram или на бирже Kwork, и мы обсудим ваш проект уже сегодня.</p>
+                <div class="social-links">
+                    <a href="https://t.me/BigBoss4243" target="_blank" class="social-btn"><i class="fa-brands fa-telegram"></i> Написать в Telegram</a>
+                    <a href="https://github.com/Radik22223333" target="_blank" class="social-btn github-btn"><i class="fa-brands fa-github"></i> Мой GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Rodion.Dev. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
